@@ -48,7 +48,7 @@ end
 def reduce_to_all_true(source_array)
   index = 0
   while index < source_array.size do
-    if !source_array[index]
+    if !source_array[index] #checking for it's present in the array which would mean it's truthy. here we check if it's not present and thus falsey so return false
       return false
     end
     index += 1
