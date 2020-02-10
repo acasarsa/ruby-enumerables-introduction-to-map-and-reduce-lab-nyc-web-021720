@@ -82,5 +82,4 @@ def reduce_to_total(source_array, starting_point)
   end
 
   total
->>>>>>> a594831bb8fdd4cebd5b1daeef287e113d8c7c28
 end
