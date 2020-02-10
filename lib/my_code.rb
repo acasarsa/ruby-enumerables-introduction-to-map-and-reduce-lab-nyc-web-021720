@@ -78,8 +78,6 @@ def reduce_to_total(source_array, starting_point)
     total += source_array[index]
     end
   index += 1
-
   end
-
   total
 end
